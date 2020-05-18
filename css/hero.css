@@ -1,0 +1,116 @@
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+
+}
+
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #0000cc;
+}
+.navbar a.r-2{
+	background-color: #330099;
+}
+.navbar a.r-3{
+	background-color: #006633;
+}
+
+.navbar a.b-1{
+	background-color: #FF0033;
+}
+
+.navbar a.m-1{
+	background-color: #FF6600;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
+html, body{
+	font-family: Arial, san-serif;
+	margin:0;
+}
+
+
+header{
+	background-color: #00004d;
+	padding:40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 174px;
+	width:300px;
+	border:24px solid #CC0000;
+}
+
+.content{
+	max-width: 900px
+	margin:0 auto;
+	padding:0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+p.caption{
+	font-size: 16px;
+	color:lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0
+	margin:0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #E6E6E6
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin:0 5px;
+}
