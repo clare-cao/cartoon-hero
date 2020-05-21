@@ -1,0 +1,128 @@
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 10px 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+
+}
+
+
+html, body{
+	font-family: Avenir, san-serif;
+	margin:0;
+	text-align: center;
+	font-size: 16px;
+	color:white;
+}
+
+
+header{
+	
+	padding:40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: red;
+	margin: 20px 0 0 0;
+	text-transform: uppercase;
+}
+
+header img{
+	border-radius: 180px;
+	width:200px;
+	border:15px solid red;
+	box-shadow: 0 10px 20px black;
+}
+
+.wrapper{
+	background-image: url('../img/background2.jpg');
+	background-repeat:no-repeat;
+	background-size:320px;
+}
+
+.content{
+	
+	margin:0 auto;
+	padding:0 20px;
+}
+
+h2{
+	font-size: 40px;
+	color:#cc0000;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+p{
+	margin:20px auto;
+	max-width: 600px;
+	color: #737373;
+	text-align: left;
+}
+
+img.hug-image{
+	max-width: 600px;
+	text-align: center;
+}
+
+img.big-image{
+	max-width: 600px;
+	text-align: center;
+}
+p.caption{
+	font-size: 16px;
+	color:black;
+	opacity: .2;
+	margin-top: 0;
+	font-style: italic;
+	text-align: center;
+}
+
+ol,ul{
+	list-style: none;
+	padding: 0px;
+	margin:20px auto 40px;
+	max-width: 600px;
+}
+li{
+	background-color:  #b3b3b3;
+	margin:5px 0;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+a{
+	color: #e60000;
+	background-color:  #b3b3b3;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #2A315E;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color:  #b3b3b3;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin:0 5px;
+}
